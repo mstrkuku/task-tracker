@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
+  //HTML TAG
   selector: 'app-root',
+  //HTML FILE
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass']
+  //YOUR CSS STYLE FILE
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-crash';
+  //where you put Any of your Properties and Methods
+
 }

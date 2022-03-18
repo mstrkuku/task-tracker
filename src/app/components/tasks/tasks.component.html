@@ -1,0 +1,6 @@
+<!--
+  [task]="task"
+  [task] meaning the actual task being referenced
+  "task" meaing the iteration number .... like int or "the 1st...2nd ...3rd go through"
+-->
+<app-task-item *ngFor="let task of tasks" [task]='task'></app-task-item>
